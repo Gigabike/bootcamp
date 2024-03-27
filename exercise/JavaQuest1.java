@@ -1,4 +1,4 @@
-package week1;
+package DemoDataType;
 
 /**
  * Expected Output:
