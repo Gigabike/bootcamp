@@ -50,31 +50,30 @@ public class App {
         }
         System.out.println(day + "is" + target);
 
-        // Compare strings 
+        // Compare strings
         // 1. String value compares with String variable
         // 2. String variable compares with string variable
 
-        // Example 3 
-       int score = 85; 
-       // if ("score".equals("score>90") || "score".equals("score>=80 & score<
-    char grade = ' '; 
-    //") || "score".equals("score>70 & score<80") 
-       //  )  || ("score.equals("score<70")
-        //  System.out.println()
+        // Example 3
+        int score = 85; // if ("score".equals("score>90") || "score".equals("score>=80 & score<
+        char grade = ' ';
+        // ") || "score".equals("score>70 & score<80")
+        // ) || ("score.equals("score<70")
+        // System.out.println()
         // score > 90 -> A (Pass)
         // 80 -90 -> B (Pass)
         // 70 - 79 -> C (Pass)
         // < 70 -> F (Fail)
         if (score > 90) {
             grade = 'A';
-        } else if (score >=80) {
+        } else if (score >= 80) {
             grade = 'B';
-        } else if (score >= 70 && score <=79) {
+        } else if (score >= 70 && score <= 79) {
             grade = 'C';
         } else {
             grade = 'F';
         }
-        String examResult = "passed"; 
+        String examResult = "passed";
         if (grade == 'F') {
             examResult = "failed";
         }
